@@ -1,4 +1,4 @@
-package com.hushuai.lazy;
+package com.hushuai.singleton.lazy;
 
 /**
  * 懒汉式

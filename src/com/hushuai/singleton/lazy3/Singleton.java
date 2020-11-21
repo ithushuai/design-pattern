@@ -1,4 +1,4 @@
-package com.hushuai.lazy3;
+package com.hushuai.singleton.lazy3;
 
 /**
  * 静态内部类单例模式

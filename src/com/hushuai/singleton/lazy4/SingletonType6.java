@@ -1,4 +1,4 @@
-package com.hushuai.lazy4;
+package com.hushuai.singleton.lazy4;
 
 /**
  * 枚举单例

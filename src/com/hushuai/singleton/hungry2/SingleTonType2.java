@@ -1,4 +1,4 @@
-package com.hushuai.hungry2;
+package com.hushuai.singleton.hungry2;
 
 /**
  * 饿汉式（静态代码块）

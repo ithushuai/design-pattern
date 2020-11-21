@@ -1,4 +1,4 @@
-package com.hushuai.hungry;
+package com.hushuai.singleton.hungry;
 
 /**
  * 饿汉式（静态常量）

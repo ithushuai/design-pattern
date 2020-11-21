@@ -1,8 +1,9 @@
-package com.hushuai.lazy2;
+package com.hushuai.singleton.lazy2;
 
 /**
  * 双重校验
  * 降低锁粒度，效率提高
+ * 缺点：能够利用反射创建对象的方式破坏单例
  * created by it_hushuai
  * 2020/4/27 23:06
  */
