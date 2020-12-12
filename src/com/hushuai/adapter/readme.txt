@@ -1,0 +1,9 @@
+Adapter(适配器模式)：
+工作原理：将一个类的接口转换成另一种接口。让原本接口不兼容的类可以兼容
+工作过程：使用者调用适配器转化出来的目标接口方法，而适配器再调用被适配者的接口方法
+例如在中国民用电压为220v，而欧洲民用电压未110v，如果我们出国那么手机将充不了点，这时需要有一个电压适配器，将110v的电压转换成220v
+我们原本的手机充电器就能正常充电了
+注意：适配器不是在详细设计时添加的，而是解决正在服役的项目的问题。
+Java中BufferedReader的readline就用到了适配器模式：
+要实现按行读取，只有BufferedReader的readline方法，而能读取数据的类是InputStream，所以在Reader和Stream直接有一个适配器InputStreamReader，
+将InputStream的read方法转换成BufferedReader的readline
