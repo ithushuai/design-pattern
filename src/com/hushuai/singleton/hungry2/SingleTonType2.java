@@ -10,6 +10,7 @@ public class SingleTonType2 {
         Singleton instance1 = Singleton.getInstance();
         Singleton instance2 = Singleton.getInstance();
         System.out.println(instance1 == instance2);
+//        System.out.println(Singleton.class);
     }
 }
 
@@ -17,10 +18,12 @@ class Singleton{
     private final static Singleton SINGLETON;
 
     static{
+        System.out.println("static");
         SINGLETON = new Singleton();
     }
 
     private Singleton(){
+        System.out.println("构造方法执行");
     }
 
     public static Singleton getInstance(){
